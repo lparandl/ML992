@@ -15,7 +15,7 @@ In this phase following steps are implemented:
     - TF-IDF
 
 3. Splitting the Dataset
-    - Using `train_test_split` technique to evaluate the performance by dividing the dataset into two subsets: Train Set, Test Set
+    - Using `train_test_split` technique to evaluate the performance by dividing the dataset into two subsets: Train Set, Test Set  
         **Train Dataset:** Used to fit the machine learning model.  
         **Test Dataset:**  Used to evaluate the fit machine learning model.
 
