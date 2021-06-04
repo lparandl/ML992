@@ -132,4 +132,6 @@ As shown above, by comparing different models, it can vividly be understood that
 ( Regularization parameter equal to `1E5` and kernel type `rbf`.)  
   
 ## Note:  
-Further work is to implement the [`NBSVM`](https://github.com/sidaw/nbsvm) model. According to the [article](https://github.com/sidaw/nbsvm/blob/master/wang12simple.pdf), performance can reach state of the art with higher accuracy.
+Further work is to implement the [`NBSVM`](https://github.com/sidaw/nbsvm) model. According to the [article](https://github.com/sidaw/nbsvm/blob/master/wang12simple.pdf), performance can reach state of the art with higher accuracy.  
+  
+This project is a part of MSc Machine Learning Course consisting of two phases. [Source Page](https://github.com/HamedBabaei/ML992)
