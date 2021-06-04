@@ -63,62 +63,73 @@ Following is a comparison between different results:
 
    - Confusion Matrix Results 
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/MNB-cm.JPG">
          </p>
    
    - Plot Representation
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/MNB-plot.png">
          </p>
 
 ### Adaptive Boosting  
 
    - Confusion Matrix Results
           <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/AdaBoost-cm.JPG">
           </p>
  
    - Plot Representation
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/AdaBoost-plot.png">
          </p>
 
 ### Logistic Regression  
 
    - Confusion Matrix Results
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/LogisticReg-cm.JPG">
          </p>
   
    - Plot Representation
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/LogisticReg-plot.png">
          </p>
 
 ### Random Forest  
 
    - Confusion Matrix Results
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/RandomForest-cm.JPG">
          </p>
   
    - Plot Representation
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/RandomForest-plot.png">
          </p>
 
 ### Support Vector Machine  
 
    - Confusion Matrix Results
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/SVM-cm.JPG">
          </p>
 
    - Plot Representation
          <p align="center">
-            <img src="">
+            <img src="https://github.com/lparandl/ML992/blob/main/Phase%202/SVM-plot.png">
          </p>  
+
+The predicted test results based on the selected models are stored in a .csv file and are as below:  
+[Predicted Test Labels using Multinomial Naïve Bayes](https://github.com/lparandl/ML992/blob/main/Phase%202/Predicted%20Labels/MNB.csv)  
+[Predicted Test Labels using Adaptive Boosting](https://github.com/lparandl/ML992/blob/main/Phase%202/Predicted%20Labels/AdaBoost.csv)  
+[Predicted Test Labels using Logistic Regression](https://github.com/lparandl/ML992/blob/main/Phase%202/Predicted%20Labels/LogisticRegression.csv)  
+[Predicted Test Labels using Random Forest](https://github.com/lparandl/ML992/blob/main/Phase%202/Predicted%20Labels/RandomForest.csv)  
+[Predicted Test Labels using C-Support Vector Classifier](https://github.com/lparandl/ML992/blob/main/Phase%202/Predicted%20Labels/SVM.csv)
+
 ## Conclusion  
 
 As shown above, by comparing different models, it can vividly be understood that the C-Support Vector Classification has the highest accuracy among others.
-( Regularization parameter equal to `1E5` and kernel type `rbf`.)
+( Regularization parameter equal to `1E5` and kernel type `rbf`.)  
+  
+## Note:  
+Further work is to implement the [`NBSVM`](https://github.com/sidaw/nbsvm) model. According to the [article](https://github.com/sidaw/nbsvm/blob/master/wang12simple.pdf), performance can reach state of the art with higher accuracy.
